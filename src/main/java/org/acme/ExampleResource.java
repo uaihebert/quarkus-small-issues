@@ -28,7 +28,7 @@ public class ExampleResource {
 
     @GetMapping
     public String hello() {
-        service.query();
+        // service.query();
         return "hello";
     }
 }
